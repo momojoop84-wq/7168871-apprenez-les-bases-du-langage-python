@@ -1,1 +1,33 @@
 # Écrivez votre code ici !
+"""
+
+    Définissez une variable nom contenant votre nom sous forme de chaîne de caractères.
+    Définissez une variable age contenant votre âge sous forme d'un entier.
+    Définissez une variable taille contenant votre taille sous forme d'un nombre à virgule flottante.
+    Définissez une variable est_etudiant contenant une valeur booléenne et indiquant si vous êtes étudiant ou non.
+    Utilisez la fonction print pour afficher les valeurs des variables précédemment définies.
+
+Les prints doivent être sous la forme suivantes :
+
+    "Nom: valeur de la variable nom"
+    "Age: valeur de la variable age"
+    "Taille: valeur de la variable taille"
+    "Est étudiant: valeur de la variable est_etudiant"
+
+    Utilisez la fonction type pour afficher avec la fonction print les types des variables précédemment définies.
+
+Les prints doivent être sous la forme suivantes :
+
+    "Type nom: type de la variable nom"
+    "Type age: type de la variable age"
+    "Type taille: type de la variable taille"
+    "Type est étudiant: type de la variable est_etudiant"
+"""
+Nom="Momo Joop"
+age=26
+taille=1,81
+est_etudiant=True
+
+print(f"Je m'appelle {Nom}, j'ai {age}, je mesure {taille} et je suis {est_etudiant}.")
+print(type(Nom,age,taille,est_etudiant))
+
