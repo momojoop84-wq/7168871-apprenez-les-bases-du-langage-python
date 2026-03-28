@@ -7,4 +7,4 @@ if values == int:
 
 if values == int
   produit=operations.multiplication(8,2)
-  print()
+  print(produit)
