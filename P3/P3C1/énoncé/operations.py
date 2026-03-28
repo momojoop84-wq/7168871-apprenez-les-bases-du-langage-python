@@ -1,13 +1,10 @@
 # Écrivez votre code ici !
 
-def salaire_mensuel(salaire) :
-    salaire=salaire/12
-    return salaire
+def somme(a,b) :
+    resultat=a+b
+    return resultat
      
-def salaire_hebdomadaire(salaire) :
-    salaire_hebdomadaire=salaire/4
-    return salaire_hebdomadaire
+def multiplication(a,b) :
+    resultat=a*b
+    return resultat
 
-def salaire_horaire(salaire_hebdomadaire,heures_de_travaille) :
-    salaire_horaire=salaire_hebdomadaire/heures_de_travaille
-    return salaire_horaire
