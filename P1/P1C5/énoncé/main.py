@@ -1,11 +1,8 @@
 # Écrivez votre code ici !
-Name=input("Quelle est votre nom ? ")
-Age=input("Quelle âge avez vous ? ")
-Length=input("Combien mesurez vous ? ")
-Is_student= input("Répondez uniquement par oui ou non svp : êtes vous étudiant ? ")
+Name=Jean
+Age=27
+Length=1.80
+Is_student=True
 
 print(f" Vous êtes {Name}, vous avez {Age}, vous mesurez {Length} et à la question si vous êtes étudiant c'est {Is_student} .")
-Type(Name)
-Type(Age)
-Type(Length)
-Type(Is_student)
+print(f"le type de {Name} est {Type(Name)},celui de {Age} est {Type(Age)},encore {Length} est de type {Type(Length)},et {Is_student} est {Type(Is_student)}
